@@ -10,7 +10,7 @@ const useStyles = makeStyles({
     alignItems: 'center',
     maxWidth: '1000px',
     margin: '0 auto',
-    border: '1px solid #000',
+    border: '2px solid #000',
     height: '100%',
   },
 });

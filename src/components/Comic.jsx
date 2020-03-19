@@ -6,7 +6,7 @@ const useStyles = makeStyles({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    borderTop: '1px solid #000',
+    borderTop: '2px solid #000',
     width: '100%',
   },
   title: {
