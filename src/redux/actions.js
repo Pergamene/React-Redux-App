@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const GET_REQUEST = 'GET_REQUEST';
-export const UPDATE_COMIC = 'UPDATE_COMIT';
+export const UPDATE_COMIC = 'UPDATE_COMIC';
 export const SET_ERROR = 'SET_ERROR';
 
 export const getRequest = number => dispatch => {
@@ -25,5 +25,6 @@ export const getRequest = number => dispatch => {
       dispatch({ type: UPDATE_COMIC, payload: comic });
     }).catch(() => {
       dispatch({ type: SET_ERROR, payload: 'Error fetching data from api'});
-    });
+    }
+  );
 };
